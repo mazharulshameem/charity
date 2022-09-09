@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+/* top menu  */
+.contact-phone{
+  text-decoration: none;
+  color:black;
+}
+.contact-phone i{
+  text-decoration: none;
+  color:#FFCA00;
+}
+.contact-mail i{
+  text-decoration: none;
+  color:#FFCA00;
+}
+
+
+
+/* dropdown menu  */
+.dropdown-menu li{
+  position: relative;
+ 
+}
+.dropdown-menu .submenu{
+display: none;
+position: absolute;
+left:99%;
+top:-5px;
+}
+.dropdown-menu>li:hover>.submenu{
+  display: block;
+}
+/* .carousel... */
+.carousel-caption{
+  bottom: 200px;
+  z-index: 2;
+}
+.carousel-caption h5{
+  font-size:60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top:50px;
+  margin-bottom: 60px;
+}
+.carousel-caption p{
+  font-size: 18px;
+  width: 60%;
+  margin: auto;
+  line-height: 1.9;
+}
+.carousel-inner::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1; 
+} 
+/* button  */
+.button {
+    font-size: 14px;
+    display: inline-block;
+    color: #000;
+    padding: 13px 19px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 1px;
+    outline: none;
+    border: 2px solid #FFCA00;
+    box-shadow: inset 6px 5px 27px 22px #FFCA00, inset 1px 0px 0px 0px #FFCA00;
+    transition: .3s;
+}
+.button:hover {
+    border: 2px solid #FFCA00;
+    background-color: #FFF;
+    color: #000;
+    box-shadow: inset 0px 0px 0px 0px #FFCA00, inset 0px 0px 0px 0px #FFCA00;
+
+}
+
+/* button two  */
+.btn-two {
+    font-size: 14px;
+    display: inline-block;
+    color: #000;
+    padding: 13px 19px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 1px;
+    outline: none;
+    border: 2px solid #FFCA00;
+    background-color: #FFF;
+    transition: .3s;
+    box-shadow: inset 0px 0px 0px 0px #FFCA00, inset 0px 0px 0px 0px #FFCA00;
+}
+.btn-two:hover {
+    color: #000;
+    border: 2px solid #FFCA00;
+    box-shadow: inset 6px 5px 27px 22px #FFCA00, inset 1px 0px 0px 0px #FFCA00; 
+}
+
+/* make donation */
+
+.donation-style-two {
+    overflow: hidden;
+}
+.donation-style-two .donation-box {
+    overflow: hidden;
+    padding: 0 0;
+    transform: translateY(0px);
+    box-shadow: 0px 0px 0px #ddd;
+    background-image: url(/img/cover2.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #FFCA00;
+}
+.donation-style-two .donation-box-left {
+    display: none;
+}
+.donation-style-two .donation-box-right {
+    width: 50%;
+    float: right;
+    padding-left: 14px;
+    padding-top: 120px;
+    padding-bottom: 161px;
+    margin-right: -15px;
+}
+.donation-style-two .amount-button {
+    margin-right: 6.2px;
+    border-color: #000;
+    color: #000;
+}
+
+.donation-style-two .amount-button:last-child {
+    margin-right: 0;
+}
+.donation-style-two .donation-form input {
+    border: 1px solid #000000;
+    padding: 10px 17px;
+    margin-bottom: 15px;
+    outline: none;
+    background: transparent;
+    color: #000;
+}
+.donation-style-two .full-width-input, .donation-style-two .donation-form select {
+    border-color: #000;
+    background: transparent;
+}
+.donation-style-two .button {
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: inset 6px 5px 27px 22px #000, inset 1px 0px 0px 0px #000;
+    padding-bottom: 10px;
+}
+.donation-style-two .button:hover {
+    border: 2px solid #000;
+    background-color: #FFF;
+    color: #000;
+    box-shadow: inset 0px 0px 0px 0px #FFCA00, inset 0px 0px 0px 0px #FFCA00;
+}
+.list-item{
+  text-decoration: none;
+}
+
+
