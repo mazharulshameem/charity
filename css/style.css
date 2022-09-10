@@ -175,5 +175,14 @@ top:-5px;
 .list-item{
   text-decoration: none;
 }
-
+/* card image service all  */
+.inner{
+overflow: hidden;
+}
+.card-img-top{
+  transition: all .5s ease;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+}
 
