@@ -91,22 +91,23 @@ top:-5px;
 }
 
 /* button two  */
-.btn-two {
+.button-two {
     font-size: 14px;
     display: inline-block;
-    color: #000;
+    color: rgb(255, 255, 255);
     padding: 13px 19px;
     line-height: 1;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: 700;
     border-radius: 1px;
     outline: none;
     border: 2px solid #FFCA00;
-    background-color: #FFF;
+    background-color: rgb(0, 0, 0);
     transition: .3s;
     box-shadow: inset 0px 0px 0px 0px #FFCA00, inset 0px 0px 0px 0px #FFCA00;
 }
-.btn-two:hover {
+.button-two:hover {
     color: #000;
     border: 2px solid #FFCA00;
     box-shadow: inset 6px 5px 27px 22px #FFCA00, inset 1px 0px 0px 0px #FFCA00; 
